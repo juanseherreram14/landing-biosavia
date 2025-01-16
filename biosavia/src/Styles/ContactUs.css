@@ -1,0 +1,22 @@
+.contact-us {
+    padding: 2rem;
+    font-family: "NordiquePro-Semibold";
+    text-align: center;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.contact-icon {
+    width: 50px; /* Tamaño de los iconos */
+    height: 50px;
+    object-fit: contain; /* Asegura que la imagen no se deforme */
+    transition: transform 0.3s ease;
+}
+
+.contact-icon:hover {
+    transform: scale(1.1); /* Efecto de zoom al pasar el ratón */
+}

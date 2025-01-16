@@ -1,0 +1,42 @@
+.about-us {
+    display: flex;
+    flex-wrap: wrap; /* Permite reorganizar los elementos en pantallas pequeñas */
+    gap: 2rem; /* Espaciado entre los elementos */
+    padding: 2rem;
+    align-items: center;
+    font-family: "NordiquePro-Semibold";
+    font-size: large;
+}
+
+.about-text {
+    max-width: 600px; /* Limita el ancho del texto */
+    flex: 1; /* Permite que ocupe más espacio en pantallas grandes */
+    text-align: justify; /* Alinea el texto uniformemente */
+    margin-left:100px; /* Quita márgenes innecesarios */
+    
+}
+
+.about-image {
+    flex: 1; /* Permite que la imagen ocupe más espacio */
+    max-width: 400px; /* Limita el ancho máximo de la imagen */
+    width: 100%; /* Imagen responsiva */
+    height: auto; /* Mantiene la proporción */
+    border-radius: 10px; /* Bordes redondeados */
+    margin-left: auto; /* Empuja la imagen hacia el margen derecho */
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 768px) {
+    .about-us {
+        flex-direction: column-reverse; /* Coloca el texto arriba y la imagen abajo */
+        padding: 1rem;
+    }
+
+    .about-image {
+        margin: 0 auto; /* Centra la imagen */
+    }
+
+    .about-text {
+        text-align: left; /* Texto alineado a la izquierda */
+    }
+}

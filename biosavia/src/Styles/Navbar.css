@@ -1,0 +1,63 @@
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Espaciado entre el logo y los enlaces */
+    align-items: center;
+    padding: 1rem 2rem; /* Ajusta los márgenes internos */
+    background: rgba(40, 38, 103, 0.7); /* Azul translúcido */
+    backdrop-filter: blur(10px); /* Glassmorphism */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    height: 100px; /* Altura fija del navbar */
+    box-sizing: border-box;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-img {
+    height: 50px; /* Ajusta según sea necesario */
+    width: auto;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem; /* Espaciado entre los enlaces */
+    font-family: "NordiquePro-Semibold";
+    margin: 0; /* Elimina márgenes adicionales */
+    padding-left: 1rem; /* Añade margen interno hacia la izquierda */
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "NordiquePro-Semibold";
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #e0e0e0; /* Efecto hover */
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  main {
+    margin-top: 80px; /* Igual a la altura del navbar */
+  }
+  
+  /* Ajuste para dispositivos pequeños */
+  @media (max-width: 768px) {
+    .nav-links {
+      gap: 0.5rem; /* Reduce el espacio entre enlaces en pantallas pequeñas */
+      padding-left: 0.5rem; /* Ajusta el margen interno */
+    }
+  }
+  
