@@ -4,7 +4,7 @@ import '../Styles/Quote.css';
 const Quote = () => {
   return (
     <section className="quote">
-      <p>Stress Killer: Full Body Relief Massage Gel</p>
+      <p>Biosavia: Unique Stress Killer experience</p>
     </section>
   );
 };

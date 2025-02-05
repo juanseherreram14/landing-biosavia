@@ -4,7 +4,7 @@
     gap: 2rem; /* Espaciado entre los elementos */
     padding: 2rem;
     align-items: center;
-    font-family: "NordiquePro-Semibold";
+    font-family: "Roboto", serif;
     font-size: large;
 }
 
@@ -18,7 +18,7 @@
 
 .about-image {
     flex: 1; /* Permite que la imagen ocupe más espacio */
-    max-width: 400px; /* Limita el ancho máximo de la imagen */
+    max-width: 700px; /* Limita el ancho máximo de la imagen */
     width: 100%; /* Imagen responsiva */
     height: auto; /* Mantiene la proporción */
     border-radius: 10px; /* Bordes redondeados */

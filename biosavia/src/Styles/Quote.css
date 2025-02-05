@@ -1,10 +1,14 @@
 .quote {
-    background-color: #282667;
-    color: #fff;
-    text-align: center;
-    padding: 2rem;
-    font-size: 1.2rem;
-    font-style: italic;
-    font-family: "NordiquePro-Semibold";
-  }
-  
+  background-color: #282667;
+  color: #fff;
+  text-align: center;
+  padding: 5rem 2rem; /* Aumenta el padding para mayor altura */
+  font-size: 2rem; /* Aumenta el tamaño de la letra */
+  font-style: italic;
+  font-family: "Roboto", serif;
+  min-height: 400px; /* Garantiza una altura mínima mayor */
+  display: flex;
+  align-items: center; /* Centra el texto verticalmente */
+  justify-content: center;
+  line-height: 1.5; /* Mejora la legibilidad del texto */
+}

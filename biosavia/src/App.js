@@ -12,9 +12,10 @@ function App() {
       <Navbar />
       <main>
         <AboutUs />
+        <Quote />
         <Gallery />
         <ContactUs />
-        <Quote />
+   
       </main>
     </>
   );

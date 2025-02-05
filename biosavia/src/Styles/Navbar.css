@@ -29,7 +29,7 @@
     list-style: none;
     display: flex;
     gap: 1rem; /* Espaciado entre los enlaces */
-    font-family: "NordiquePro-Semibold";
+    font-family: "Roboto", serif;
     margin: 0; /* Elimina márgenes adicionales */
     padding-left: 1rem; /* Añade margen interno hacia la izquierda */
   }
@@ -37,7 +37,7 @@
   .nav-links a {
     color: #fff;
     text-decoration: none;
-    font-family: "NordiquePro-Semibold";
+    font-family: "Roboto", serif;
     transition: color 0.3s ease;
   }
   

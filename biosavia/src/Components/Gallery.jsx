@@ -11,6 +11,15 @@ import fotoGaleria6 from "../Images/fotoGaleria6.jpeg";
 import fotoGaleria7 from "../Images/fotoGaleria7.jpeg";
 import fotoGaleria8 from "../Images/fotoGaleria8.jpeg";
 import fotoGaleria9 from "../Images/fotoGaleria9.jpeg";
+import fotoGaleria10 from "../Images/FotoGaleria10.jpeg";
+import fotoGaleria11 from "../Images/FotoGaleria11.jpeg";
+import fotoGaleria12 from "../Images/FotoGaleria12.jpeg";
+import fotoGaleria13 from "../Images/FotoGaleria13.jpeg";
+import fotoGaleria14 from "../Images/FotoGaleria14.jpeg";
+import fotoGaleria15 from "../Images/FotoGaleria15.jpeg";
+import fotoGaleria16 from "../Images/FotoGaleria16.jpeg";
+import fotoGaleria17 from "../Images/FotoGaleria17.jpeg";
+
 
 const Gallery = () => {
   const images = [
@@ -23,6 +32,14 @@ const Gallery = () => {
     fotoGaleria7,
     fotoGaleria8,
     fotoGaleria9,
+    fotoGaleria10,
+    fotoGaleria11,
+    fotoGaleria12,
+    fotoGaleria13,
+    fotoGaleria14,
+    fotoGaleria17,
+    fotoGaleria15,
+    fotoGaleria16
   ];
 
   return (
