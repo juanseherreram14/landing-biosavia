@@ -10,7 +10,7 @@ const ContactUs = () => {
     <section id="contact" className="contact-us">
       <h2>Contact Us</h2>
       <div className="contact-icons">
-        <a href="https://w.app/Biosavia" target="_blank" rel="noopener noreferrer">
+        <a href="https://bit.ly/33E2EUL" target="_blank" rel="noopener noreferrer">
           <img src={whatsappIcon} alt="WhatsApp" className="contact-icon" />
         </a>
         <a href="https://www.instagram.com/biosaviausa?igsh=MWFsNXQ2ZmRnb3hoMg==" target="_blank" rel="noopener noreferrer">
