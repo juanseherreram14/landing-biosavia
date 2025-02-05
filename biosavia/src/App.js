@@ -11,11 +11,21 @@ function App() {
     <>
       <Navbar />
       <main>
-        <AboutUs />
-        <Quote />
-        <Gallery />
-        <ContactUs />
-   
+        <section id="about">
+          <AboutUs />
+        </section>
+        
+        <section id="quote">
+          <Quote />
+        </section>
+        
+        <section id="gallery">
+          <Gallery />
+        </section>
+        
+        <section id="contact">
+          <ContactUs />
+        </section>
       </main>
     </>
   );
