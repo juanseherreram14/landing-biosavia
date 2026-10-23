@@ -1,50 +1,23 @@
-import React from "react";
-import '../Styles/AboutUs.css';
-import AboutUsImage from "../Images/AboutUs.jpeg";
+import React from 'react';
+import Icon from './Icon';
 
-const AboutUs = () => {
-    return (
-        <section className="about-us">
-    <div className="about-text">
-        <h2>About BIOSAVIA</h2>
-        <p>
-            BIOSAVIA is a premium, natural OTC gel made in the USA, formulated for effective pain relief, 
-            anti-inflammatory benefits, and stress reduction. Its sophisticated formula combines capsaicin, arnica, 
-            ginseng, and pure essential oils of orange and mint, delivering a soothing and therapeutic experience.
-        </p>
-        <h3>Targeted Relief for All Ages</h3>
-        <p>
-            BIOSAVIA provides fast-acting relief for bruises, cramps, and muscle tension in the neck, back, and 
-            other areas of the body. Whether you're an athlete, an active individual, or seeking gentle care for 
-            children or the elderly, our formula is designed to suit all ages. Simply massage it onto the affected 
-            area until fully absorbed, or apply it to the back, feet, and neck for a more relaxing and restful sleep.
-        </p>
-        <h3>Versatile Applications</h3>
-        <p>
-            Our conveniently sealed 4 oz (117.5 g) bottle is ideal for use at the gym, spa, or as part of a 
-            first-aid kit. BIOSAVIA can help with:
-        </p>
-        <ul>
-            <li>Relaxing tense and contracted muscles before or after exercise</li>
-            <li>Relieving headaches and migraines when applied to the scalp</li>
-            <li>Alleviating muscle cramps in any part of the body</li>
-            <li>Reducing joint inflammation</li>
-            <li>Providing relief for varicose veins, tired legs, and feet</li>
-            <li>Easing general fatigue and tension</li>
-            <li>Soothing mosquito bites</li>
-        </ul>
-        <p>
-            Experience the natural power of BIOSAVIA and enjoy a soothing, pain-free lifestyle.
-        </p>
-    </div>
-    <img 
-        src={AboutUsImage} 
-        alt="About Us" 
-        className="about-image" 
-    />
-</section>
-
-    );
-};
-
-export default AboutUs;
+export default function AboutUs() {
+  return (
+    <section id="about" className="about-section section-space">
+      <div className="container">
+        <div className="section-heading"><p className="eyebrow">01 / Acerca de BIOSAVIA</p><span className="section-detail">Naturaleza que se siente.</span></div>
+        <div className="about-grid">
+          <div><h2>Una fórmula natural.<br /><span>Mucho que sentir.</span></h2><div className="formula-mark"><Icon name="leaf" size={32} /><p>Aceites esenciales puros<br /><strong>de menta y naranja.</strong></p></div></div>
+          <div className="about-copy"><p className="lead">BIOSAVIA es un gel natural de venta libre de alta calidad, orgullosamente ecuatoriano, formulado para aliviar eficazmente el dolor, proporcionar beneficios antiinflamatorios y reducir el estrés.</p><p>Su sofisticada fórmula combina árnica, ginseng y aceites esenciales puros de naranja y menta, ofreciendo una experiencia relajante y terapéutica.</p><p>Los aceites esenciales de menta y de naranja de BIOSAVIA relajan cualquier parte contraída del cuerpo por dolor muscular, articular o por estrés.</p></div>
+        </div>
+        <div className="ingredients" aria-label="Ingredientes de BIOSAVIA">
+          <div><span className="ingredient-number">01</span><h3>Menta</h3><span>Aceite esencial puro</span><Icon name="leaf" size={30} /></div>
+          <div><span className="ingredient-number">02</span><h3>Naranja</h3><span>Aceite esencial puro</span><Icon name="sun" size={30} /></div>
+          <div><span className="ingredient-number">03</span><h3>Árnica</h3><span>Parte de nuestra fórmula</span><span className="botanical-symbol" aria-hidden="true">✳</span></div>
+          <div><span className="ingredient-number">04</span><h3>Ginseng</h3><span>Parte de nuestra fórmula</span><Icon name="leaf" size={30} /></div>
+        </div>
+        <p className="formula-line">BIOSAVIA. Único en el mundo con aceites esenciales.</p>
+      </div>
+    </section>
+  );
+}

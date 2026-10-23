@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# BIOSAVIA
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Landing de BIOSAVIA en español, desarrollada con React. Conserva el logo, la tipografía Roboto y el color de marca `#282667`.
 
-## Available Scripts
+## Desarrollo
 
-In the project directory, you can run:
+Requiere Node.js 18 o superior y npm. Desde esta carpeta:
 
-### `npm start`
+```bash
+npm ci
+npm start
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+La vista previa se abre en `http://localhost:3000`.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Validación y publicación
 
-### `npm test`
+```bash
+CI=true npm test -- --watchAll=false --runInBand
+npm run build
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+El directorio `build/` contiene la web estática lista para el hosting existente. Las rutas de los recursos respetan `PUBLIC_URL` si se despliega bajo un subdirectorio.
 
-### `npm run build`
+## Contenido
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+El contenido editorial está distribuido en `src/Components/`: presentación, fórmula, aplicaciones, galería y contacto. El texto se actualizó con el documento de BIOSAVIA proporcionado en octubre de 2026: origen ecuatoriano, presentación de 75 g, árnica, ginseng y aceites esenciales de menta y naranja.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`src/data/media.json` registra las 22 fotos y los 17 videos suministrados, sus títulos y sus nombres originales. Los recursos están incluidos en `public/media/`:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- `photos/`: fotos optimizadas en WebP.
+- `videos/`: videos MP4 con H.264 y audio AAC cuando el original contiene audio, optimizados para reproducción web.
+- `posters/`: miniaturas WebP extraídas de cada video.
+- `hero-biosavia.webp`: recorte de la foto 8 para la portada.
+- `logo.webp`: logo original optimizado.
 
-### `npm run eject`
+La galería permite filtrar, cargar más contenido y abrir fotos o videos en un visor. Los videos se descargan al abrir el visor; la página inicial usa sus miniaturas. El visor admite Escape, controles nativos y navegación entre recursos. El menú móvil, las pestañas de usos y los acordeones funcionan con teclado y respetan la preferencia de movimiento reducido.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Los enlaces de WhatsApp e Instagram conservan los destinos del repositorio original. No se añadió un formulario sin servicio de envío.

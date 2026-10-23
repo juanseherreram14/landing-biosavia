@@ -1,0 +1,309 @@
+[
+  {
+    "id": "video-05",
+    "type": "video",
+    "title": "Automasaje craneal",
+    "src": "videos/video-05.mp4",
+    "poster": "posters/video-05.webp",
+    "duration": 24,
+    "original": "AUTOMASAJE CRANEAL.mp4"
+  },
+  {
+    "id": "atletas",
+    "type": "photo",
+    "title": "En movimiento, juntos",
+    "src": "photos/atletas.webp",
+    "original": "FOTO ATLETAS.jpeg"
+  },
+  {
+    "id": "video-03",
+    "type": "video",
+    "title": "Una pausa frente al estrés",
+    "src": "videos/video-03.mp4",
+    "poster": "posters/video-03.webp",
+    "duration": 11,
+    "original": "2 ESTRES.mp4"
+  },
+  {
+    "id": "foto-8",
+    "type": "photo",
+    "title": "El poder de la menta y la naranja",
+    "src": "photos/foto-8.webp",
+    "original": "8.jpg"
+  },
+  {
+    "id": "video-07",
+    "type": "video",
+    "title": "Calambres repentinos",
+    "src": "videos/video-07.mp4",
+    "poster": "posters/video-07.webp",
+    "duration": 9,
+    "original": "Calambres repentinos.mp4"
+  },
+  {
+    "id": "kit-de-viaje",
+    "type": "photo",
+    "title": "Un lugar en tu kit de viaje",
+    "src": "photos/kit-de-viaje.webp",
+    "original": "KIT DE VIAJE.jpeg"
+  },
+  {
+    "id": "video-01",
+    "type": "video",
+    "title": "Tu compañero de aventura",
+    "src": "videos/video-01.mp4",
+    "poster": "posters/video-01.webp",
+    "duration": 8,
+    "original": "1 Whisk MI MEJOR COMPAÑERO DE AVENTURA.mp4"
+  },
+  {
+    "id": "video-02",
+    "type": "video",
+    "title": "Salud, chispa y ganas",
+    "src": "videos/video-02.mp4",
+    "poster": "posters/video-02.webp",
+    "duration": 16,
+    "original": "16 sec Que la Salud, la Chispa y las Ganas Iluminen tu vida (3).mp4"
+  },
+  {
+    "id": "video-04",
+    "type": "video",
+    "title": "Aventura sin límites",
+    "src": "videos/video-04.mp4",
+    "poster": "posters/video-04.webp",
+    "duration": 8,
+    "original": "3 PARACAIDAS.mp4"
+  },
+  {
+    "id": "video-06",
+    "type": "video",
+    "title": "Una Navidad con BIOSAVIA",
+    "src": "videos/video-06.mp4",
+    "poster": "posters/video-06.webp",
+    "duration": 8,
+    "original": "BIOSAVIA SANTA.mp4"
+  },
+  {
+    "id": "video-08",
+    "type": "video",
+    "title": "BIOSAVIA en la farmacia",
+    "src": "videos/video-08.mp4",
+    "poster": "posters/video-08.webp",
+    "duration": 8,
+    "original": "QUIMIFARM 2.mp4"
+  },
+  {
+    "id": "video-09",
+    "type": "video",
+    "title": "El bienestar va contigo",
+    "src": "videos/video-09.mp4",
+    "poster": "posters/video-09.webp",
+    "duration": 20,
+    "original": "WhatsApp Video 2025-02-16 at 17.45.59.mp4"
+  },
+  {
+    "id": "video-10",
+    "type": "video",
+    "title": "Un momento para cuidarte",
+    "src": "videos/video-10.mp4",
+    "poster": "posters/video-10.webp",
+    "duration": 23,
+    "original": "WhatsApp Video 2025-10-19 at 12.47.43 PM.mp4"
+  },
+  {
+    "id": "video-11",
+    "type": "video",
+    "title": "Pequeños momentos de cuidado",
+    "src": "videos/video-11.mp4",
+    "poster": "posters/video-11.webp",
+    "duration": 34,
+    "original": "WhatsApp Video 2025-10-19 at 12.47.57 PM.mp4"
+  },
+  {
+    "id": "video-12",
+    "type": "video",
+    "title": "Bienestar en casa",
+    "src": "videos/video-12.mp4",
+    "poster": "posters/video-12.webp",
+    "duration": 21,
+    "original": "WhatsApp Video 2026-02-13 at 7.18.10 PM.mp4"
+  },
+  {
+    "id": "video-13",
+    "type": "video",
+    "title": "Un masaje después del deporte",
+    "src": "videos/video-13.mp4",
+    "poster": "posters/video-13.webp",
+    "duration": 12,
+    "original": "WhatsApp Video 2026-03-05 at 1.33.27 PM.mp4"
+  },
+  {
+    "id": "video-14",
+    "type": "video",
+    "title": "Contigo en cada paso",
+    "src": "videos/video-14.mp4",
+    "poster": "posters/video-14.webp",
+    "duration": 22,
+    "original": "WhatsApp Video 2026-03-07 at 5.59.11 PM.mp4"
+  },
+  {
+    "id": "video-15",
+    "type": "video",
+    "title": "Cuidado de las manos",
+    "src": "videos/video-15.mp4",
+    "poster": "posters/video-15.webp",
+    "duration": 10,
+    "original": "WhatsApp Video 2026-03-11 at 5.46.29 PM.mp4"
+  },
+  {
+    "id": "video-16",
+    "type": "video",
+    "title": "Un respiro para tus pies",
+    "src": "videos/video-16.mp4",
+    "poster": "posters/video-16.webp",
+    "duration": 25,
+    "original": "pies.mp4"
+  },
+  {
+    "id": "video-17",
+    "type": "video",
+    "title": "Estrés en el trabajo",
+    "src": "videos/video-17.mp4",
+    "poster": "posters/video-17.webp",
+    "duration": 5,
+    "original": "stress.mp4"
+  },
+  {
+    "id": "foto-4",
+    "type": "photo",
+    "title": "Un masaje para el cuello",
+    "src": "photos/foto-4.webp",
+    "original": "4.jpg"
+  },
+  {
+    "id": "foto-5",
+    "type": "photo",
+    "title": "Alivio para los calambres",
+    "src": "photos/foto-5.webp",
+    "original": "5.jpg"
+  },
+  {
+    "id": "foto-6",
+    "type": "photo",
+    "title": "Una pausa para relajarte",
+    "src": "photos/foto-6.webp",
+    "original": "6.jpg"
+  },
+  {
+    "id": "foto-7",
+    "type": "photo",
+    "title": "Relajación y descanso",
+    "src": "photos/foto-7.webp",
+    "original": "7.jpg"
+  },
+  {
+    "id": "foto-9",
+    "type": "photo",
+    "title": "Bienestar después de nadar",
+    "src": "photos/foto-9.webp",
+    "original": "9.jpg"
+  },
+  {
+    "id": "foto-10",
+    "type": "photo",
+    "title": "Tu botiquín de aventura",
+    "src": "photos/foto-10.webp",
+    "original": "10.jpg"
+  },
+  {
+    "id": "foto-11",
+    "type": "photo",
+    "title": "Alivio muscular en tu día",
+    "src": "photos/foto-11.webp",
+    "original": "11.jpg"
+  },
+  {
+    "id": "foto-12",
+    "type": "photo",
+    "title": "Cuida tu cuello y espalda",
+    "src": "photos/foto-12.webp",
+    "original": "12.jpg"
+  },
+  {
+    "id": "foto-13",
+    "type": "photo",
+    "title": "BIOSAVIA te acompaña",
+    "src": "photos/foto-13.webp",
+    "original": "13.jpg"
+  },
+  {
+    "id": "foto-14",
+    "type": "photo",
+    "title": "Baja el ritmo, respira",
+    "src": "photos/foto-14.webp",
+    "original": "14.jpg"
+  },
+  {
+    "id": "foto-15",
+    "type": "photo",
+    "title": "Un aliado para el masaje",
+    "src": "photos/foto-15.webp",
+    "original": "15.jpg"
+  },
+  {
+    "id": "foto-16",
+    "type": "photo",
+    "title": "Calambres repentinos",
+    "src": "photos/foto-16.webp",
+    "original": "16.jpg"
+  },
+  {
+    "id": "foto-17",
+    "type": "photo",
+    "title": "Ese momento de alivio",
+    "src": "photos/foto-17.webp",
+    "original": "17.jpg"
+  },
+  {
+    "id": "foto-18",
+    "type": "photo",
+    "title": "Relaja el cuerpo y la mente",
+    "src": "photos/foto-18.webp",
+    "original": "18.jpg"
+  },
+  {
+    "id": "foto-19",
+    "type": "photo",
+    "title": "Cuida tus músculos al entrenar",
+    "src": "photos/foto-19.webp",
+    "original": "19.png"
+  },
+  {
+    "id": "foto-20",
+    "type": "photo",
+    "title": "Después del ejercicio",
+    "src": "photos/foto-20.webp",
+    "original": "20.jpg"
+  },
+  {
+    "id": "foto-21",
+    "type": "photo",
+    "title": "Un masaje que reconforta",
+    "src": "photos/foto-21.webp",
+    "original": "21.jpg"
+  },
+  {
+    "id": "foto-22",
+    "type": "photo",
+    "title": "BIOSAVIA, gel natural",
+    "src": "photos/foto-22.webp",
+    "original": "22.jpg"
+  },
+  {
+    "id": "foto-23",
+    "type": "photo",
+    "title": "Un momento de bienestar",
+    "src": "photos/foto-23.webp",
+    "original": "23.jpg"
+  }
+]
